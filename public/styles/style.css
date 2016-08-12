@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
 body {
     margin: 0;
 }
@@ -6,20 +8,12 @@ body {
     padding: 75px 20px;
 }
 
-.home {
-    /*background-color: rgb(165,208,40);*/
-    background-image: url("../media/blueback.jpg");
-}
-
 .about {
-    background-color: rgb(255, 192,0);
+    /*background-color: rgb(255, 192,0);*/
+    background-image: url("../media/lovelyblue.jpg");
 }
 
-.work {
-    background-color: rgb(242,64,153);
-}
-
-.skills {
+.projects {
     background-color: rgb(9,155,221);
 }
 
@@ -35,10 +29,18 @@ body {
 .nav>li {
     margin: 5px;
     border: 1px solid white;
-    border-radius: 0;
+    border-radius: 10px;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
+}
+
+.navbar-name-header {
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Muli', sans-serif;
+    padding: 5px;
+    display: block;
 }
 
 @media (min-width: 768px) {
@@ -47,13 +49,58 @@ body {
         padding-bottom: 7px;
     }
 }
-@media (min-width: 1200px) {
-    .container {
-        width: 100%;
-    }
+.container {
+    width: 100%;
 }
 @media (min-width: 768px) {
     .navbar-nav {
         float:right;
     }
     }
+
+.portfolio-wrapper {
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid silver;
+margin: 50px;
+}
+.portfolio-image {
+    float: left;
+    display: inline-block;
+    margin-top:30px;
+    width: 40%;
+}
+.portfolio-body {
+    padding: 15px;
+    float: right;
+    display: inline-block;
+    width: 60%;
+    height: inherit;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Muli', sans-serif;
+}
+
+.jumbotron h1 {
+    font-size: 47px;
+    font-family: 'Muli', sans-serif;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 60%;
+    float: right;
+}
