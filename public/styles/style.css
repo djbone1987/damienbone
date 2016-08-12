@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.page {
+    padding: 75px 20px;
+}
+
+.home {
+    /*background-color: rgb(165,208,40);*/
+    background-image: url("../media/blueback.jpg");
+}
+
+.about {
+    background-color: rgb(255, 192,0);
+}
+
+.work {
+    background-color: rgb(242,64,153);
+}
+
+.skills {
+    background-color: rgb(9,155,221);
+}
+
+.contact {
+    background-color: rgb(245,102,23);
+}
+
+/* NAV BAR */
+.navbar-inverse {
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+}
+.nav>li {
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float:right;
+    }
+    }
